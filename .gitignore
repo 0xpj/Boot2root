@@ -1,0 +1,14 @@
+*.txt
+.vscode
+fun
+ft_fun
+mdp
+node_modules/
+crack
+a.out
+crack.c
+peda
+laurie@*
+bomb.*
+test.c
+
