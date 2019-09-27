@@ -7,7 +7,7 @@ During this project, you will surely encounter difficulties: let's be clear, the
 difficulties, you have to go beyond them yourself. Think in a group and especially
 have fun ! ! ! !
 
-Do with 
+Done with 
 - [Pac-nam](https://github.com/pac-nam)
 - [Nsikora](https://github.com/nsikora)
 - [Arnauz94](https://github.com/arnauz94)
