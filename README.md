@@ -1,5 +1,7 @@
 # BOOT2ROOT
 
+## Validated: 125/100
+
 This project aims to make you discover, through several small challenges, the security
 in computer science in several fields.
 The methods you will use, more or less complex, will make you see differently computer systems.
