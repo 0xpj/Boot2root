@@ -91,7 +91,7 @@ Reste à faire le calcul, ce qui donne:<br>
 `1 2 6 24 120 720`<br>
 <img src="./ress/fibonacci.jpeg" width="200" height="200"/>
 ### STEP 3
-On peut voir que la solution ressemble à `%d %c %d` soit: nombre, caractère, nombre.
+On peut voir que la solution ressemble à `%d %c %d` soit: nombre, caractère, nombre.<br>
 ![Phase 3](./ress/phase_3.png)<br>
 En utilisant ghidra, nous pouvons voir, que le premier argument est situé entre `0 et 7`.<br>
 que si le premier vaut 1 le char est b, et le dernier argument doit-être égal à `214`.
@@ -101,7 +101,7 @@ soit:<br>
 <img src="./ress/rtfm.png" width="200" height="200"/>
 
 ### STEP 4
-D'après cette fonction, on peut déterminer que `param_1` doit valoir **`9`**.
+D'après cette fonction, on peut déterminer que `param_1` doit valoir **`9`**.<br>
 ![Phase 3](./ress/phase_4.png)<br>
 On peut trouver ce résultat grâce à la fonction présentée dans "_ressources/writup1/phase_4.c_".<br>
 Il est à noter que c'est la seule étape pour laquelle le nombre d'arguments n'est pas vérifié.<br>
@@ -111,15 +111,16 @@ En entrant non pas `9`, mais `9 austinpowers`, une phase secrete apparaitra apr�
 ### STEP 5
 La chaine attendue est une chaine de 6 caractères dont le premier est un 'o'.<br>
 Un ET logique est effectue sur chaque caractere pour obtenir l'index entre 0 et 15 d'un element d'une table de comparaison.<br>
-Ce qui permet d'obtenir un grand nombre de combinaisons.
+Ce qui permet d'obtenir un grand nombre de combinaisons.<br>
 
 ```
 opekmq opekma opekmQ opekmA opekm1 o`ekma
 ```
-
+<br>
 La bonne combinaison est la premiere possibilite en utilisant une base alphanumerique commencant par les minuscules.
-soit:<br>
-`opekmq`<br>
+soit:
+<br>
+`opekmq`
 <img src="./ress/norris.jpeg" width="200" height="200"/>
 
 ### STEP 6
@@ -138,7 +139,7 @@ voilà voilà...<br>
 
 ## CONNECTION TO THOR
 
-En concatenant les mots de passe précedent (sans espaces), nous obtenons le mot de passe:<br>
+En concatenant les mots de passe précedent (sans espaces), nous obtenons le mot de passe:<br>
 ```Publicspeakingisveryeasy.126241207201b2149opekmq426315```<br>
 Sur le forum, est dit d'inverser les lettres 'v' et 'w' qui sont les dernieres lettres de l'alphabet -2 et -3<br>
 Ce qui donne le mot de passe final: <br>
