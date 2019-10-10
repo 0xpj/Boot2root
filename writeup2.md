@@ -36,13 +36,13 @@ mdp: `330b845f32185747e4f8ca15d40ca59796035c89ea809fb5d30f4da83ecf45a4`
 ### Obtention de droits sudo
 
 Copier le fichier: `breach.c`.<br>
-avec: `scp breach.c laurie@$(../../ip_machine boot2root):`<br>
+avec: `scp breach.c laurie@$(../../ip_machine boot2root):`<br><br>
 Compiler avec la commande: `gcc -pthread breach.c -o breach -lcrypt`.<br>
-lancer l'exécutable avec: `./breach`.<br>
+lancer l'exécutable avec: `./breach`.<br><br>
 Un user `pac-man` à été ajouté avec le mot de passe `password`.<br>
 Il est accessible avec:<br>
 `su pac-man`<br>
-`password`<br>
+`password`<br><br>
 Réalise sur la base de: `https://www.exploit-db.com/exploits/40839`
 
 ### WE ARE ROOT
