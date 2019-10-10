@@ -119,8 +119,9 @@ opekmq opekma opekmQ opekmA opekm1 o`ekma
 <br>
 La bonne combinaison est la premiere possibilite en utilisant une base alphanumerique commencant par les minuscules.
 soit:
-<br>
+
 `opekmq`
+
 <img src="./ress/norris.jpeg" width="200" height="200"/>
 
 ### STEP 6
